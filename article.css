@@ -1,0 +1,53 @@
+body {
+    font-size: 20px;
+}
+.header {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    background-color: palevioletred;
+    width: 100%;
+    
+}
+
+.navigation li {
+    display: inline;
+    padding: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    
+}
+
+.body p {
+    width: 500px;
+}
+
+li a:hover {
+    background-color:brown;
+}
+    
+li a {
+    text-decoration: none;
+}
+
+
+
+
+
